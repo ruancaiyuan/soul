@@ -40,6 +40,7 @@
         <guava.version>27.0.1-jre</guava.version>
         <fastjson.version>1.2.42</fastjson.version>
         <core.version>3.3.0</core.version>
+        <commons-io.version>2.6</commons-io.version>
         <commons-beanutils.version>1.9.1</commons-beanutils.version>
         <servlet-api.version>2.5</servlet-api.version>
         <druidSpringBoot.version>1.1.10</druidSpringBoot.version>
@@ -94,6 +95,12 @@
             <groupId>commons-beanutils</groupId>
             <artifactId>commons-beanutils</artifactId>
             <version>${commons-beanutils.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>${commons-io.version}</version>
         </dependency>
 
         <!-- <dependency>

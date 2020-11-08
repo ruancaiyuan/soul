@@ -26,6 +26,10 @@ public class UserController {
     @Autowired
     private ISoulUserService iSoulUserService;
 
+    //用户注册
+
+
+
     /**
      * 用户详情
      *
@@ -36,5 +40,6 @@ public class UserController {
     public ResultVO<UserDetailsResponse> treeCamera(@Min(1) @Length(min = 1, max = 10) @NotNull(message = "id不能为空") @PathVariable Integer id) {
         return ResultVO.success(iSoulUserService.getDetailsById(id));
     }
+
 
 }
