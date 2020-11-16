@@ -3,6 +3,7 @@ package com.yuan.util;
 import cn.hutool.core.util.ObjectUtil;
 import com.yuan.exception.BusinessException;
 
+//hutool代碼的封裝
 public class ObjectUtils {
 
     //对象是否为空

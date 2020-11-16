@@ -2,7 +2,7 @@ package com.yuan.constant.enums;
 
 public enum ErrorCode implements ResultEnum {
 
-    SYSTEM_ERROR(500, "系统异常");
+    SYSTEM_ERROR(10001, "系统异常");
 
 
     ErrorCode(Integer code, String message) {
